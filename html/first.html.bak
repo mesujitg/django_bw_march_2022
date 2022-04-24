@@ -254,8 +254,8 @@
 		
 		
 		<!-- Tags to arrange elements -->
-		<div></div>
-		<span></span>
+		<div id="" class=""></div>
+		<span id="" class=""></span>
 		
 	</body>
 </html>
