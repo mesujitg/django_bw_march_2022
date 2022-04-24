@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome</title>
+	</head>
+	
+	<body>
+		<!-- Headings -->
+		<h1 id="top">HTML</h1>
+		<h2 class="my_class">HTML</h2>
+		<h3>HTML</h3>
+		<h4>HTML</h4>
+		<h5 class="my_class">HTML</h5>
+		<h6>HTML</h6>
+		
+		<!-- Paragraph -->
+		<p>
+		HTML is used to create web pages.
+		<br /> <hr /> 
+		It defines contents of a web page.
+		<br>
+		hello there!!!
+		Whats going on??
+		Is &nbsp; &nbsp; &nbsp; Everything all right?
+		<br>
+		
+		&lt;p&gt; tag is used to create paragraph in  HTML.
+		</p>
+		
+		<!-- 
+		Formatting Tags 
+		----------------
+		b, i, u, strike, strong, em, del, sub, sup, pre
+		
+		Special Characters
+		------------------
+		-->
+		<p>
+		<b>HTML</b> is used to create <i>web pages</i>.
+		H<sub>2</sub>O
+		X<sup>3</sup>
+		&copy; &reg; &amp; &dollar; &pound;
+		<pre>
+		hello there!!!
+		Whats going on??
+		Is       Everything all right?
+		</pre>
+		</p>
+		
+		<!-- 
+		List
+		----
+		1. Unordered List
+		2. Ordered List
+		3. Definition List
+		-->
+		
+		<ol>
+			<li>HTML
+				<ul>
+					<li>Inline Elements</li>
+					<li>Block Elements</li>
+				</ul>
+			</li>
+			<li>CSS
+				<ol>
+					<li>Inline CSS</li>
+					<li>Embedded CSS</li>
+					<li>External CSS</li>
+				</ol>
+			</li>
+			<li>JavaScript</li>
+		</ol>
+		
+		
+		<dl>
+			<dt>CSS</dt>
+			<dd>It is used to design web pages</dd>
+			
+			<dt>JavaScript</dt>
+			<dd>It is used to make web pages interactive</dd>
+		</dl>
+		
+		<!--
+		Multimedia
+		-----------
+		1. Image
+			Bitmap Images
+			-------------
+			i. jpg - 24bit, lossy compression
+			ii. png - 8bit 16bit 24bit, lossless compression
+			iii. gif - 8bit, lossy compression
+		2. Audio
+		3. Video
+		-->
+		
+		<img src="river.jpg" alt="River Image" />
+		
+		<audio controls autoplay>
+			<source src="audio.mp3" type="audio/mp3" />
+			<source src="audio.ogg" type="audio/ogg" />
+		</audio>
+		
+		<video controls width="700" autoplay>
+			<source src="video.mp4" type="video/mp4" />
+			<source src="video.ogg" type="video/ogg" />
+		</video>
+		
+		<!-- Table -->
+		<table border="1" width="500">
+			<tr>
+				<th>Name</th>
+				<th>Address</th>
+				<th>Email</th>
+				<th>Mobile</th>
+			</tr>
+			<tr>
+				<td>Ram</td>
+				<td>Kathmandu</td>
+				<td>ram@email.com</td>
+				<td>9812345670</td>
+			</tr>
+			<tr>
+				<td>Shyam</td>
+				<td>Lalitpur</td>
+				<td>shyam@email.com</td>
+				<td>9812345670</td>
+			</tr>
+		</table>
+		
+		<table border="1" width="200">
+			<tr>
+				<td>a</td>
+				<td colspan="3">b</td>
+			</tr>
+			<tr>
+				<td>e</td>
+				<td>f</td>
+				<td>g</td>
+				<td rowspan="2">h</td>
+			</tr>
+			<tr>
+				<td>i</td>
+				<td>j</td>
+				<td>k</td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2">l</td>
+				<td>m</td>
+				<td>n</td>
+			</tr>
+			<tr>
+				<td>o</td>
+				<td>p</td>
+			</tr>
+		</table>
+		
+		<!-- 
+		HyperLink in HTML
+		-----------------
+		anchor tag (<a>)
+		1. Absolute URL
+		2. Relative URL
+		3. In-page Link
+		-->
+		<a href="https://www.google.com/" target="_blank">Google</a>
+		<a href="second.html">Another Page</a>
+		<a href="#top">Go to Top</a>
+	</body>
+</html>
