@@ -1,0 +1,28 @@
+/* Font/Text Properties */ 
+h1
+{
+	color: red;
+	font-size: 32px;
+	font-style: italic;
+	font-family: arial;
+	text-align: center;
+	text-decoration: underline; /*line-through*/
+	text-shadow: green 3px 3px 3px; 
+	/* shadow-color x-distance y-distance blur-radius */
+}
+
+p
+{
+	font-style: italic;
+	font-weight: bold; /*100-800*/
+	text-transform: capitalize; /*uppercase/lowercase*/
+	text-indent: 50px;
+}
+
+/* Box Properties */ 
+#header-left
+{
+	background-color: aqua;
+	height: 100px;
+	width: 960px;
+}
