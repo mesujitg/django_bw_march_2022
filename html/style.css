@@ -1,3 +1,74 @@
+#main
+{
+	width: 100%
+}
+
+header
+{
+	background-color: blue;
+	height: 100px;
+	width: 100%;
+}
+
+#header-left
+{
+	background-color: green;
+	height: 100px;
+	width: 33%;
+	float:left;
+}
+#header-center
+{
+	background-color: orange;
+	height: 100px;
+	width: 34%;
+	float:left;
+}
+#header-right
+{
+	background-color: red;
+	height: 100px;
+	width: 33%;
+	float:left;
+}
+
+nav
+{
+	background-color: darkblue;
+	height: 50px;
+	width: 100%;
+}
+
+#slider
+{
+	background-color: grey;
+	height: 400px;
+	width: 100%;
+}
+
+#display
+{
+	background-color: #eeeeee;
+	height: 400px;
+	width: 100%;
+}
+
+footer
+{
+	background-color: blue;
+	height: 30px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 /* Font/Text Properties */ 
 h1
 {
@@ -20,9 +91,38 @@ p
 }
 
 /* Box Properties */ 
-#header-left
+#first
 {
-	background-color: aqua;
-	height: 100px;
-	width: 960px;
+	/*background: linear-gradient(to top right,blue, aqua, darkblue);*/
+	/*background: radial-gradient(blue, aqua, darkblue);*/
+	/*background-image: url(river.jpg);*/
+	/*background-size: 290px 200px;*/
+	/*background-repeat: no-repeat;*/
+	height: 200px;
+	width: 290px;
+	border-left: red solid 10px; /* color style size */
+	/* dotted dashed double inset outset */
+	/*margin: 10px auto;*/
+	/*margin: 10px;*/
+	/*margin: 10px 30px;*/ /* T-B L-R */
+	/*margin: 10px 30px 10px 30px;*/ /* T R B L */
+	/*margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom:20px;*/
+	/*float: left;*/
+}
+#second
+{
+	background-color: green;
+	width: 260px;
+	padding: 10px 20px;
+	float: left;
+}
+p
+{
+	background-color: lightblue;
+	/*margin: 10px 20px;*/
+	padding: 10px 20px;
+	text-align: justify;
 }
