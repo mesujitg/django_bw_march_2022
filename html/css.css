@@ -1,0 +1,106 @@
+#main
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+header
+{
+	background-color: blue;
+	height: 100px;
+	width: 100%;
+	float: left;
+}
+
+#header-left
+{
+	background-color: green;
+	height: 100px;
+	width: 33%;
+	float:left;
+}
+#header-center
+{
+	background-color: orange;
+	height: 100px;
+	width: 34%;
+	float:left;
+}
+#header-right
+{
+	background-color: red;
+	height: 100px;
+	width: 33%;
+	float:left;
+}
+
+nav
+{
+	background-color: darkblue;
+	width: 100%;
+	float: left;
+}
+
+/* list styles */
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/* list-style-type: circle/disc/square/upper-alpha/upper-latin/upper-roman; */
+	/* list-style-image: url(arrow.png); */
+	/* list-style-position: inside; */
+}
+
+nav ul li a
+{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+nav ul li
+{
+	float: left;
+	margin: 10px 40px;
+}
+nav ul li ul
+{
+	background-color: darkblue;
+	position: absolute;
+	padding: 5px;
+	display: none;
+}
+nav ul li ul li
+{
+	float: none;
+	margin: 0;
+}
+nav ul li:hover ul
+{
+	display: block;
+}
+
+#slider
+{
+	background-color: grey;
+	height: 400px;
+	width: 100%;
+	float: left;
+}
+
+#display
+{
+	background-color: #eeeeee;
+	height: 400px;
+	width: 100%;
+	float: left;
+}
+
+footer
+{
+	background-color: blue;
+	height: 30px;
+	width: 100%;
+	float: left;
+}
