@@ -58,6 +58,13 @@ nav ul li a
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: bold;
+	padding: 5px;
+}
+nav ul li a:hover
+{
+	color: #000000;
+	background-color: #ffffff;
+	padding: 5px;
 }
 nav ul li
 {
@@ -70,23 +77,43 @@ nav ul li ul
 	position: absolute;
 	padding: 5px;
 	display: none;
+	width: 130px;
+	padding: 10px;
 }
 nav ul li ul li
 {
 	float: none;
-	margin: 0;
+	margin: 10px 0;
 }
-nav ul li:hover ul
+nav ul li ul li ul
+{
+	float: none;
+	margin: -100px 0 0 150px;
+}
+nav ul li:hover > ul
 {
 	display: block;
 }
 
 #slider
 {
-	background-color: grey;
-	height: 400px;
+	background: grey;
+	background-size: 100% 100%;
+	height: 300px;
 	width: 100%;
 	float: left;
+}
+#slider img
+{
+	height: 300px;
+	width: 100%;
+}
+#slider h1
+{
+	color: red;
+	position: absolute;
+	margin: -250px 0 0 20%;
+	z-index: 1;
 }
 
 #display
@@ -95,6 +122,22 @@ nav ul li:hover ul
 	height: 400px;
 	width: 100%;
 	float: left;
+	display: flex;
+}
+.single_display
+{
+	width: 30%;
+	border: 1px solid orange;
+	border-radius: 20px;
+	margin: 10px 1%;
+	padding: 10px;
+}
+.single_display img
+{
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	display: block;
 }
 
 footer
