@@ -119,7 +119,6 @@ nav ul li:hover > ul
 #display
 {
 	background-color: #eeeeee;
-	height: 400px;
 	width: 100%;
 	float: left;
 	display: flex;
@@ -140,10 +139,34 @@ nav ul li:hover > ul
 	display: block;
 }
 
+@media only screen and (max-width: 768px){
+	nav ul li
+	{
+		float: none;
+	}
+	
+	#display
+	{
+		display: block;
+	}
+	.single_display
+	{
+		width: 96%;
+		margin: 10px 1%;
+		padding: 1%;
+	}
+}
+
 footer
 {
 	background-color: blue;
 	height: 30px;
 	width: 100%;
 	float: left;
+}
+footer p
+{
+	color: #ffffff;
+	margin: 5px auto;
+	text-align: center;
 }

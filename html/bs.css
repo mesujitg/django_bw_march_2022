@@ -1,0 +1,26 @@
+header
+{
+    background: blue;
+    height: 100px;
+}
+
+#first
+{
+    background: green;
+    height: 100px;
+}
+#second
+{
+    background: red;
+    height: 100px;
+}
+#third
+{
+    background: orange;
+    height: 100px;
+}
+#fourth
+{
+    background: brown;
+    height: 100px;
+}
