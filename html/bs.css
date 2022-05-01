@@ -4,23 +4,42 @@ header
     height: 100px;
 }
 
-#first
+nav ul li a
 {
-    background: green;
-    height: 100px;
+	color: #ffffff !important;
+	font-size: 20px;
+	font-weight: bold;
 }
-#second
+nav .dropdown ul
 {
-    background: red;
-    height: 100px;
+	background: green;
 }
-#third
+nav a.dropdown-item:hover
 {
-    background: orange;
-    height: 100px;
+	background: none;
+	color: red !important;
 }
-#fourth
+
+#slider
 {
-    background: brown;
-    height: 100px;
+	background: grey;
+	height: 350px;
+}
+#carouselExampleCaptions
+{
+	padding: 0;
+}
+.carousel-item img
+{
+	height: 350px;
+
+}
+.carousel-caption
+{
+	background: rgba(50, 120, 120, 0.7);
+}
+
+#display .card, #new-arrivals .card
+{
+	margin: 10px auto;
 }
