@@ -13,9 +13,13 @@
 			<header>
 				<div id="header-left"></div>
 				<div id="header-center">
-					<h2 id="title">Website Title</h2>
+					<h2 id="title" onclick="my_function()">
+						Website Title
+					</h2>
 				</div>
-				<div id="header-right"></div>
+				<div id="header-right">
+					
+				</div>
 			</header>
 
 			<nav>
@@ -90,6 +94,96 @@
 				<p> Copyright &copy; 2022 reserved. Company Pvt. Ltd.</p> 
 			</footer>
 		</div>
+		
+		<script>
+		/*
+			var name = 'Ram Kumar';
+			age = 25;
+			let salary = 50000.00;
+			var is_married = false;
+			
+			if(is_married)
+			{
+				alert(name + 'is married');
+			}
+			else
+			{
+				alert(name + 'is still unmarried');
+			}
+			
+			day = 4;
+			switch(day)
+			{
+				case 1: alert('Sunday');
+				break;
+				case 2: alert('Monday');
+				break;
+				case 3: alert('Tuesday');
+				break;
+				case 4: alert('Wednesday');
+				break;
+				case 5: alert('Thursday');
+				break;
+				case 6: alert('Friday');
+				break;
+				case 7: alert('Saturday');
+				break;
+				default: alert('Invalid');
+				break;
+			}
+			
+			for(i=1; i<=10; i++)
+			{
+				alert(i);
+			}
+			
+			j=1;
+			while(j<=10)
+			{
+				alert(j);
+				j++;
+			}
+			*/
+			// single line comment
+			/*
+			- makes a web page interactive
+			- we can trigger a function on users' actions
+			- JS can manipulate HTML document
+				- content
+				- attribute
+				- style
+				- DOM
+			
+			
+			alert('Hello from JavaScript');
+			document.write('Hello from JavaScript');
+			console.log('Hello from JavaScript Console');
+			
+			students = ['ram', 'shyam', 'hari'];
+			name = 'ram'
+			students = ['ram']
+			*/
+			
+			function my_function()
+			{
+				var el = document.getElementById('title');
+				/*var el = document.forms['form_name']['el_name'];*/
+				
+				var el1 = document.getElementsByTagName('h2');
+				var el2 = document.getElementsByClassName('class_name');
+				var el3 = document.getElementsByName('name');
+				
+				el1[0].innerHTML = 'From JS';
+				el.align = 'center';
+				//el.setAttribute('attribute','value');
+				el.style.color = 'blue';
+				el.style.fontSize = '32px';
+				el.innerHTML = 'From <i>JS</i>';
+			}
+			
+			//AJAX - Asyncronous JavaScript And XML
+			
+		</script>
 		
 	</body>
 </html>
